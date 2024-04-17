@@ -27,6 +27,6 @@
         <property name="hibernate.current_session_context_class">thread</property>
 
         <!-- Entity mapping -->
-        <mapping class="org.hibernate.Addresstable" />
+        <mapping class="org.example.Addresstable" />
     </session-factory>
 </hibernate-configuration>

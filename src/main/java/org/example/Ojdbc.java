@@ -1,4 +1,4 @@
-package org.hibernate;
+package org.example;
 import java.sql.*;
 public class Ojdbc {
 

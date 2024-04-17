@@ -1,4 +1,4 @@
-package org.webservice;
+package org.example;
 
 public class WelcomeName {
     public static String printWelcomeName(String uname)
