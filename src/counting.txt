@@ -1,0 +1,2 @@
+This is just a test to see if the program works.
+We can see that the program works well
