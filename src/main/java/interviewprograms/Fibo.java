@@ -20,12 +20,7 @@ public class Fibo
                 c=x;
 
             }
-
-        for(int r:myList)
-        {
-            System.out.print(r);
-            System.out.print(" ");
-        }
+        System.out.println(myList);
 
     }
 }

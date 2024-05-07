@@ -1,37 +1,54 @@
 package org.example;
 
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Configuration;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-import java.util.List;
-public class AddresstableTest {
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-        private SessionFactory sessionFactory;
+import static org.junit.jupiter.api.Assertions.*;
+
+class AddresstableTest {
+
+            private SessionFactory sessionFactory;
         private Session session;
+     private Addresstable addresstable;
 
-        @Before
-        public void setUp() {
-            sessionFactory = new Configuration().configure().buildSessionFactory();
-            session = sessionFactory.openSession();
-            session.beginTransaction();
-        }
-
-        @After
-        public void tearDown() {
-            session.getTransaction().commit();
-            session.close();
-            sessionFactory.close();
-        }
-
-        @Test
-        public void testFetchData() {
-            List<Addresstable> entities = session.createQuery("from Addresstable", Addresstable.class).list();
-            for (Addresstable entity : entities) {
-                System.out.println("City: " + entity.getCity() + ", Country: " + entity.getCountry() + " ,Pincode: " +entity.getPincode());
-            }
-        }
+    @BeforeEach
+    void setUp() {
+//        sessionFactory = new Configuration().configure().buildSessionFactory();
+//            session = sessionFactory.openSession();
+//            session.beginTransaction();
+          addresstable = new Addresstable();
     }
 
+    @AfterEach
+    void tearDown() {
+    }
+
+    @Test
+    void getCity() {
+    }
+
+    @Test
+    void setCity() {
+    }
+
+    @Test
+    void getCountry() {
+    }
+
+    @Test
+    void setCountry() {
+    }
+
+    @Test
+    void getPincode() {
+        addresstable.getPincode();
+    }
+
+    @Test
+    void setPincode() {
+    }
+}

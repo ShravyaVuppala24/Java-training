@@ -4,21 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97bedfe2-6b28-465d-9b4d-d3687b8ec43b" name="Changes" comment="maven" />
+    <list default="true" id="97bedfe2-6b28-465d-9b4d-d3687b8ec43b" name="Changes" comment="maven">
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/ArrayListOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/HashMapIteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/HashtoArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/NPE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/Prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/PrintHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/SearchHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/StackOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/StringSwapWithout3rd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/classExecptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/reverseastring1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/stringcounthashmap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/swapwith3rd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/swapwithout3rd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AddresstableTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/UserjsonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fibo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/Fibo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AddresstableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AddresstableTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ShravyaVuppala24"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ShravyaVuppala24&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -27,6 +61,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2dyjaPcbqZQaoONxPif9BjMIXbH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,12 +72,149 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayListOperations.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.EvenOdd.executor": "Run",
+    "Application.Fibo.executor": "Run",
+    "Application.HashMapIteration.executor": "Run",
+    "Application.HashtoArray.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Ojdbc.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.Prime.executor": "Run",
+    "Application.PrintHashTable.executor": "Run",
+    "Application.SearchHashTable.executor": "Run",
+    "Application.StackOperations.executor": "Run",
+    "Application.StringSwapWithout3rd.executor": "Run",
+    "Application.classExecptions (1).executor": "Run",
+    "Application.classExecptions (2).executor": "Run",
+    "Application.classExecptions.executor": "Run",
+    "Application.reverseastring1.executor": "Run",
+    "Application.stringcounthashmap.executor": "Run",
+    "Application.swapwith3rd.executor": "Run",
+    "Application.swapwithout3rd.executor": "Run",
+    "JUnit.AddresstableTest.executor": "Run",
+    "JUnit.AddresstableTest.testFetchData.executor": "Run",
+    "JUnit.AddresstableTest.testFetchData1.executor": "Run",
+    "JUnit.ServiceTest.executor": "Run",
+    "JUnit.UserjsonTest.executor": "Run",
+    "Maven.JavaTrainingMaven [clean,install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/shrav/Downloads/mysql-connector-j-8.3.0/mysql-connector-j-8.3.0/mysql-connector-j-8.3.0.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shrav\IdeaProjects\JavaTrainingMaven\src\main\java\interviewprograms" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.StringSwapWithout3rd">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewprograms.Main" />
+      <module name="JavaTrainingMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewprograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringSwapWithout3rd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewprograms.StringSwapWithout3rd" />
+      <module name="JavaTrainingMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewprograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="classExecptions (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewprograms.classExecptions" />
+      <module name="JavaTrainingMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewprograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="classExecptions (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewprograms.classExecptions" />
+      <module name="JavaTrainingMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewprograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="classExecptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewprograms.classExecptions" />
+      <module name="JavaTrainingMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewprograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StringSwapWithout3rd" />
+        <item itemvalue="Application.classExecptions (2)" />
+        <item itemvalue="Application.classExecptions (1)" />
+        <item itemvalue="Application.classExecptions" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,6 +224,15 @@
       <option name="presentableId" value="Default" />
       <updated>1710987278172</updated>
     </task>
+    <task id="LOCAL-00001" summary="maven">
+      <option name="closed" value="true" />
+      <created>1713321845332</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713321845332</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
