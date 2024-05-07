@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97bedfe2-6b28-465d-9b4d-d3687b8ec43b" name="Changes" comment="maven">
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/ArrayListOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/HashMapIteration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/HashtoArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/NPE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/Prime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/PrintHashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/SearchHashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/StackOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/StringSwapWithout3rd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/classExecptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/reverseastring1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/stringcounthashmap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/swapwith3rd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/swapwithout3rd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AddresstableTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/UserjsonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fibo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/Fibo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AddresstableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AddresstableTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="97bedfe2-6b28-465d-9b4d-d3687b8ec43b" name="Changes" comment="maven" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -232,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713321845332</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="maven">
+      <option name="closed" value="true" />
+      <created>1715093863693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715093863693</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
