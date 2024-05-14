@@ -1,0 +1,4 @@
+2024-05-14 13:45:19 DEBUG LoggerExample:13 - Debugging
+2024-05-14 13:45:19 ERROR LoggerExample:19 - Stack trace:
+java.lang.ArithmeticException: / by zero
+	at org.example.LoggerExample.main(LoggerExample.java:16)
