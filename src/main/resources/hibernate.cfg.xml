@@ -28,5 +28,6 @@
 
         <!-- Entity mapping -->
         <mapping class="org.example.Addresstable" />
+        <mapping class="org.example.UserInfo" />
     </session-factory>
 </hibernate-configuration>
