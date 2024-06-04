@@ -5,35 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97bedfe2-6b28-465d-9b4d-d3687b8ec43b" name="Changes" comment="log4j">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/AbstractFactoryMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/BehaviourCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/BehaviourMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/BehaviourVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/BehvariourObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/FactoryMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/StructureAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/StructureFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/abstr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hibernatejson2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JWT/ClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JWT/JWTExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JWT/ServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JWT/ServerSide.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AllstrFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/AllstrFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CountStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/CountStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashmapImpli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/HashmapImpli.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RepStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/RepStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RevStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/RevStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TryCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/TryCatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TryCatchFinally.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/TryCatchFinally.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/counting.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewprograms/counting.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,6 +73,7 @@
     "Application.Fibo.executor": "Run",
     "Application.HashMapIteration.executor": "Run",
     "Application.HashtoArray.executor": "Run",
+    "Application.JWTExample.executor": "Run",
     "Application.LoggerExample.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Ojdbc.executor": "Run",
@@ -95,6 +81,8 @@
     "Application.Prime.executor": "Run",
     "Application.PrintHashTable.executor": "Run",
     "Application.SearchHashTable.executor": "Run",
+    "Application.ServerApplication.executor": "Run",
+    "Application.ServerSide.executor": "Run",
     "Application.Singleton.executor": "Run",
     "Application.StackOperations.executor": "Run",
     "Application.StringSwapWithout3rd.executor": "Run",
@@ -127,7 +115,8 @@
     "last_opened_file_path": "C:/Users/shrav/IdeaProjects/JavaTrainingMaven",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -151,20 +140,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.BehaviourVisitor">
-    <configuration name="BehaviourCommand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.BehaviourCommand" />
-      <module name="JavaTrainingMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DesignPatterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ServerSide">
     <configuration name="BehaviourMediator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.BehaviourMediator" />
       <module name="JavaTrainingMaven" />
@@ -191,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BehvariourObserver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.BehvariourObserver" />
+    <configuration name="JWTExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JWT.JWTExample" />
       <module name="JavaTrainingMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.*" />
+          <option name="PATTERN" value="JWT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,12 +180,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructureFacade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.StructureFacade" />
+    <configuration name="ServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JWT.ServerApplication" />
       <module name="JavaTrainingMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.*" />
+          <option name="PATTERN" value="JWT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerSide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JWT.ServerSide" />
+      <module name="JavaTrainingMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JWT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServerSide" />
+        <item itemvalue="Application.JWTExample" />
+        <item itemvalue="Application.ServerApplication" />
         <item itemvalue="Application.BehaviourVisitor" />
         <item itemvalue="Application.BehaviourMediator" />
-        <item itemvalue="Application.BehaviourCommand" />
-        <item itemvalue="Application.BehvariourObserver" />
-        <item itemvalue="Application.StructureFacade (1)" />
       </list>
     </recent_temporary>
   </component>
