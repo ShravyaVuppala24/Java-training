@@ -4,13 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97bedfe2-6b28-465d-9b4d-d3687b8ec43b" name="Changes" comment="log4j">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JWT/ClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JWT/JWTExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JWT/ServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JWT/ServerSide.java" afterDir="false" />
+    <list default="true" id="97bedfe2-6b28-465d-9b4d-d3687b8ec43b" name="Changes" comment="JWT">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ActiveMQ/ActiveMQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ActiveMQ/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ActiveMQ/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Concepts/Inheritence/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Concepts/Inheritence/Ford.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Concepts/Inheritence/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Concepts/Inheritence/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Concepts/Interface/Doll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Concepts/Interface/Manufacture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Concepts/Interface/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Concepts/Interface/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JWT/JWT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jaxB/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jaxB/objtoXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Employee.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JWT/JWTExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JWT/JWTExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JWT/ServerSide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JWT/ServerSide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +39,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -67,15 +83,23 @@
     "Application.BehaviourVisitor.executor": "Run",
     "Application.BehvariourObserver.executor": "Run",
     "Application.BinarySearch.executor": "Run",
+    "Application.Concepts.Interface.main.executor": "Run",
     "Application.EvenOdd.executor": "Run",
     "Application.FactoryMethod (1).executor": "Run",
     "Application.FactoryMethod.executor": "Run",
     "Application.Fibo.executor": "Run",
     "Application.HashMapIteration.executor": "Run",
     "Application.HashtoArray.executor": "Run",
+    "Application.JWT (1).executor": "Run",
+    "Application.JWT (2).executor": "Run",
+    "Application.JWT (3).executor": "Run",
+    "Application.JWT (4).executor": "Run",
+    "Application.JWT (5).executor": "Run",
+    "Application.JWT.executor": "Run",
     "Application.JWTExample.executor": "Run",
     "Application.LoggerExample.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MainApp.executor": "Run",
     "Application.Ojdbc.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.Prime.executor": "Run",
@@ -92,15 +116,21 @@
     "Application.StructureFacade (1).executor": "Run",
     "Application.StructureFacade.executor": "Run",
     "Application.abstr.executor": "Run",
+    "Application.awss3.executor": "Run",
     "Application.classExecptions (1).executor": "Run",
     "Application.classExecptions (2).executor": "Run",
     "Application.classExecptions.executor": "Run",
+    "Application.downloadtos3.executor": "Run",
     "Application.hibernatejson.executor": "Run",
     "Application.hibernatejson2.executor": "Run",
+    "Application.main.executor": "Run",
+    "Application.objtoXML.executor": "Run",
     "Application.reverseastring1.executor": "Run",
     "Application.stringcounthashmap.executor": "Run",
     "Application.swapwith3rd.executor": "Run",
     "Application.swapwithout3rd.executor": "Run",
+    "Application.uploadtos3.executor": "Run",
+    "Application.x.executor": "Run",
     "JUnit.AddresstableTest.executor": "Run",
     "JUnit.AddresstableTest.testFetchData.executor": "Run",
     "JUnit.AddresstableTest.testFetchData1.executor": "Run",
@@ -140,13 +170,13 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ServerSide">
-    <configuration name="BehaviourMediator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.BehaviourMediator" />
+  <component name="RunManager" selected="Application.objtoXML">
+    <configuration name="Concepts.Interface.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Concepts.Interface.main" />
       <module name="JavaTrainingMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.*" />
+          <option name="PATTERN" value="Concepts.Interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BehaviourVisitor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.BehaviourVisitor" />
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ActiveMQ.MainApp" />
       <module name="JavaTrainingMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.*" />
+          <option name="PATTERN" value="ActiveMQ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JWTExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JWT.JWTExample" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Concepts.Inheritence.main" />
       <module name="JavaTrainingMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JWT.*" />
+          <option name="PATTERN" value="Concepts.Inheritence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,12 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JWT.ServerApplication" />
+    <configuration name="objtoXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jaxB.objtoXML" />
       <module name="JavaTrainingMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JWT.*" />
+          <option name="PATTERN" value="jaxB.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,12 +223,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerSide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JWT.ServerSide" />
+    <configuration name="uploadtos3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AWS.uploadtos3" />
       <module name="JavaTrainingMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JWT.*" />
+          <option name="PATTERN" value="AWS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServerSide" />
-        <item itemvalue="Application.JWTExample" />
-        <item itemvalue="Application.ServerApplication" />
-        <item itemvalue="Application.BehaviourVisitor" />
-        <item itemvalue="Application.BehaviourMediator" />
+        <item itemvalue="Application.objtoXML" />
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="Application.uploadtos3" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Concepts.Interface.main" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715712434867</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="JWT">
+      <option name="closed" value="true" />
+      <created>1717466697538</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717466697538</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,7 +323,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="maven" />
     <MESSAGE value="log4j" />
-    <option name="LAST_COMMIT_MESSAGE" value="log4j" />
+    <MESSAGE value="JWT" />
+    <option name="LAST_COMMIT_MESSAGE" value="JWT" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaTrainingMaven$LoggerExample.ic" NAME="LoggerExample Coverage Results" MODIFIED="1715650990921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

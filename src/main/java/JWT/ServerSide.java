@@ -29,3 +29,6 @@ public class ServerSide {
         }
     }
 }
+
+//client - get token from server and validate
+//server - generate and validate

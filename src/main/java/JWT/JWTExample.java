@@ -16,7 +16,7 @@ public class JWTExample {
         String jwt = Jwts.builder()
                 .setSubject("user123") // subject
                 .setIssuedAt(new Date()) // issued time
-                .setExpiration(new Date(System.currentTimeMillis() + 86400000)) // expires in 24 hours
+                .setExpiration(new Date(System.currentTimeMillis() + 1)) // expires in 24 hours
                 .signWith(SECRET_KEY) // signing algorithm and secret key
                 .compact();
 
