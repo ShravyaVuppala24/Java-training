@@ -4,28 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97bedfe2-6b28-465d-9b4d-d3687b8ec43b" name="Changes" comment="JWT">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ActiveMQ/ActiveMQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ActiveMQ/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ActiveMQ/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Concepts/Inheritence/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Concepts/Inheritence/Ford.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Concepts/Inheritence/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Concepts/Inheritence/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Concepts/Interface/Doll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Concepts/Interface/Manufacture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Concepts/Interface/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Concepts/Interface/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JWT/JWT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jaxB/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jaxB/objtoXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Employee.xml" afterDir="false" />
+    <list default="true" id="97bedfe2-6b28-465d-9b4d-d3687b8ec43b" name="Changes" comment="JAXB">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Mockito/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Mockito/MathService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SyncStatic/CalcThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SyncStatic/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadPool/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadPool/ThreadPoolExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Mockito/t.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JWT/JWTExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JWT/JWTExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JWT/ServerSide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JWT/ServerSide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +103,7 @@
     "Application.StructureAdapter.executor": "Run",
     "Application.StructureFacade (1).executor": "Run",
     "Application.StructureFacade.executor": "Run",
+    "Application.ThreadPoolExample.executor": "Run",
     "Application.abstr.executor": "Run",
     "Application.awss3.executor": "Run",
     "Application.classExecptions (1).executor": "Run",
@@ -136,13 +125,14 @@
     "JUnit.AddresstableTest.testFetchData1.executor": "Run",
     "JUnit.ServiceTest.executor": "Run",
     "JUnit.UserjsonTest.executor": "Run",
+    "JUnit.t.executor": "Run",
     "Maven.JavaTrainingMaven [clean,install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/shrav/IdeaProjects/JavaTrainingMaven",
+    "last_opened_file_path": "C:/Users/shrav/IdeaProjects/FullStack",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -170,13 +160,13 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.objtoXML">
-    <configuration name="Concepts.Interface.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Concepts.Interface.main" />
+  <component name="RunManager" selected="Application.ThreadPoolExample">
+    <configuration name="CalcThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SyncStatic.CalcThread" />
       <module name="JavaTrainingMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Concepts.Interface.*" />
+          <option name="PATTERN" value="SyncStatic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Concepts.Inheritence.main" />
+    <configuration name="ThreadPoolExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadPool.ThreadPoolExample" />
       <module name="JavaTrainingMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Concepts.Inheritence.*" />
+          <option name="PATTERN" value="ThreadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,15 +213,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="uploadtos3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AWS.uploadtos3" />
+    <configuration name="t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTrainingMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AWS.*" />
+          <option name="PATTERN" value="Mockito.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Mockito" />
+      <option name="MAIN_CLASS_NAME" value="Mockito.t" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -249,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadPoolExample" />
+        <item itemvalue="JUnit.t" />
+        <item itemvalue="Application.CalcThread" />
         <item itemvalue="Application.objtoXML" />
         <item itemvalue="Application.MainApp" />
-        <item itemvalue="Application.uploadtos3" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.Concepts.Interface.main" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717466697538</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="JAXB">
+      <option name="closed" value="true" />
+      <created>1719516605680</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719516605680</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -324,7 +324,8 @@
     <MESSAGE value="maven" />
     <MESSAGE value="log4j" />
     <MESSAGE value="JWT" />
-    <option name="LAST_COMMIT_MESSAGE" value="JWT" />
+    <MESSAGE value="JAXB" />
+    <option name="LAST_COMMIT_MESSAGE" value="JAXB" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaTrainingMaven$LoggerExample.ic" NAME="LoggerExample Coverage Results" MODIFIED="1715650990921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
